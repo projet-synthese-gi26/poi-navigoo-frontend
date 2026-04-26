@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: 'standalone',
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
@@ -8,7 +9,6 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "media-service.pynfi.com" }
     ],
   },
-  output: 'standalone',
   async rewrites() {
     return [
       // ✅ PROXY UNIQUE pour le Backend POI
