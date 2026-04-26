@@ -9,7 +9,7 @@ COPY . .
 
 ARG API_BASE_URL
 
-RUN printf API_BASE_URL = "https://traefikdev.yowyob.com/poi-navigoo" > .env \
+RUN printf API_BASE_URL = "https://traefikdev.yowyob.com/poi-navigoo" > .env && \
     npm run build
 
 FROM node:20-alpine AS runner
