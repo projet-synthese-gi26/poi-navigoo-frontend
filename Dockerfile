@@ -7,9 +7,10 @@ RUN npm install && npm ci --prefer-offline
 
 COPY . .
 
-ARG API_BASE_URL
-
-RUN printf API_BASE_URL = "https://traefikdev.yowyob.com/poi-navigoo" > .env && npm run build
+ARG API_BASE_URL=https://traefikdev.yowyob.com/poi-navigoo
+RUN echo "API_BASE_URL=${API_BASE_URL}" > .env && \
+    cat .env && \
+    npm run build
 
 FROM node:20-alpine AS runner
 
