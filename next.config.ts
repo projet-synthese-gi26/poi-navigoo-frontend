@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "media-service.pynfi.com" }
     ],
   },
+  output: 'standalone',
   async rewrites() {
     return [
       // ✅ PROXY UNIQUE pour le Backend POI
