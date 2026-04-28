@@ -137,7 +137,7 @@ export const BlogModal = ({ isOpen, onClose, onSuccess }: BlogModalProps) => {
       setUploadedMediaId(media.id);
       
       // Get the full URL
-      const fullUrl = mediaService.getMediaUrl(media.id);
+      const fullUrl = mediaService.getMediaUrl(media);
       setFormData(prev => ({ ...prev, cover_image_url: fullUrl }));
       
       console.log("✅ Media uploaded successfully!");

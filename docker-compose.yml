@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: frontend-navigoo-poi
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    restart: always
