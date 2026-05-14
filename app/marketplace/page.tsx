@@ -78,35 +78,35 @@ const TRAMASYS_SERVICES = [
   { 
     name: "FareCalculator", 
     desc: "Calculez vos tarifs de course instantanément", 
-    link: "https://fare-calculator-front.vercel.app/en", 
+    link: "https://farcal-dev.yowyob.com/en", 
     color: "from-blue-500 to-cyan-500",
     icon: HandCoins
   },
   { 
     name: "RidenGo", 
     desc: "Application de covoiturage moderne", 
-    link: "https://ride-go-web.vercel.app/", 
+    link: "https://ridngo-dev.yowyob.com/", 
     color: "from-green-500 to-emerald-500",
     icon: Car
   },
   { 
     name: "Fleet Management", 
     desc: "Gérez votre flotte de véhicules", 
-    link: "https://fleet-management-tramasys.vercel.app/", 
+    link: "https://fleetman-dev.yowyob.com/fr", 
     color: "from-orange-500 to-red-500",
     icon: Truck
   },
   { 
     name: "Freelance Driver", 
     desc: "Plateforme pour chauffeurs indépendants", 
-    link: "https://freelance-driver.vercel.app", 
+    link: "https://driver-dev.yowyob.com/", 
     color: "from-purple-500 to-pink-500",
     icon: PenTool
   },
   { 
     name: "Syndicat", 
     desc: "Gestion des organisations de transport", 
-    link: "https://ugates.vercel.app/fr", 
+    link: "https://ugate-dev.yowyob.com/en", 
     color: "from-indigo-500 to-blue-500",
     icon: StoreIcon
   },
